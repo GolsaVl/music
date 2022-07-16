@@ -1,0 +1,132 @@
+body{
+    background-image: url('img/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: HSL(225, 100%, 94%);
+    background-size: 100%;
+    font-size: 16px;
+    
+}
+
+.main {
+  border-radius: 30px;
+  background-color: HSL(225, 100%, 98%);
+  display: inline-block;
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  text-align: center;
+  width: 450px;
+  height: 630px;
+  box-shadow: 0 10px 10px HSL(225, 100%, 94%);
+}
+
+.middle {
+  background-color: HSL(225, 100%, 96.5%);
+  width: 350px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+p {
+  color: HSL(224, 23%, 55%);
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+h1 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bolder;
+  margin-bottom: 0;
+  font-weight: 900;
+}
+
+h3 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.hero-img {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.music-img {
+  float: left;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.p {
+  width: 70%;
+  text-align: center;
+  display: inline-block;
+}
+
+.d {
+  display: inline-block;
+  position: relative;
+  margin-right: 60px;
+}
+
+.button {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   height: 8px;
+   line-height: 8px;
+   color: #FFFFFF;
+   font-family: Arial;
+   width: 306px;
+   font-size: 16px;
+   font-weight: 700;
+   padding: 19px;
+   background-color: #3829E0;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #3829E0 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 30px;
+   box-shadow: 0 10px 10px HSL(225, 100%, 94%);
+}
+
+.button:hover {
+   background: #906EFF;
+   border: solid #906EFF 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+.cancle {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.cancle:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.change {
+  color: #3829E0;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bold;
+  float: right;
+  margin-top: 35px;
+  margin-right: 25px;
+  font-size: 16px;
+}
+
+.change:hover {
+  color: #906EFF;
+}
+
+.dollar {
+  text-align: left;
+  margin-top: 0;
+}
